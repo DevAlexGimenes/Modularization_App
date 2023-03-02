@@ -11,7 +11,7 @@ class CharacterDetailsRepositoryImpl(
 
     override suspend fun getCharacterDetails(id: Int) : State<Character> {
         return try {
-            State.Success(myApi.getCharacter())
+            State.Success(myApi.getCharacter(id.toString()))
         } catch (e: Throwable) {
             State.Error(e)
         }

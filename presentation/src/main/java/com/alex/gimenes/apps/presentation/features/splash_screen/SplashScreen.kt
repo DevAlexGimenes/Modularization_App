@@ -15,6 +15,7 @@ import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import kotlinx.coroutines.delay
+import com.alex.gimenes.apps.presentation.R
 
 @Composable
 fun AnimatedSplashScreen(
@@ -45,7 +46,7 @@ fun Splash(alpha: Float) {
         contentAlignment = Alignment.Center
     ) {
         Image(
-            painter = painterResource(id = com.alex.gimenes.apps.presentation.R.drawable.baseline_back_hand_24),
+            painter = painterResource(id = R.drawable.ic_splash_screen_rnm),
             modifier = Modifier
                 .size(200.dp)
                 .alpha(alpha = alpha),
