@@ -10,7 +10,6 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.alex.gimenes.apps.presentation.features.character_details.CharacterDetailViewModel
 import com.alex.gimenes.apps.presentation.features.character_details.CharacterDetails
 import com.alex.gimenes.apps.presentation.features.home.Home
 import com.alex.gimenes.apps.presentation.features.splash_screen.AnimatedSplashScreen
