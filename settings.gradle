@@ -14,6 +14,10 @@ dependencyResolutionManagement {
 }
 rootProject.name = "ModularizationApp"
 include ':app'
-include ':presentation'
-include ':domain'
-include ':data'
+include ':feature_splash_screen'
+include ':feature_home'
+include ':feature_character_details'
+include ':feature_character_details:presentation_character_details'
+include ':domain_character_details'
+include ':feature_character_details:domain_character_details'
+include ':feature_character_details:data_character_details'

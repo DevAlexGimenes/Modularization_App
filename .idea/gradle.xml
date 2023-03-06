@@ -11,9 +11,13 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/data" />
-            <option value="$PROJECT_DIR$/domain" />
-            <option value="$PROJECT_DIR$/presentation" />
+            <option value="$PROJECT_DIR$/domain_character_details" />
+            <option value="$PROJECT_DIR$/feature_character_details" />
+            <option value="$PROJECT_DIR$/feature_character_details/data_character_details" />
+            <option value="$PROJECT_DIR$/feature_character_details/domain_character_details" />
+            <option value="$PROJECT_DIR$/feature_character_details/presentation_character_details" />
+            <option value="$PROJECT_DIR$/feature_home" />
+            <option value="$PROJECT_DIR$/feature_splash_screen" />
           </set>
         </option>
       </GradleProjectSettings>
